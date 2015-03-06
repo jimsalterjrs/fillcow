@@ -11,7 +11,9 @@
 #
 # $rewrite chance that any given write will be to an already
 # allocated block (simulate bad block received).
-
+#
+# will take a ZFS snapshot once per minute.
+#
 
 my $K = 1024;
 my $M = 1024 * $K;
